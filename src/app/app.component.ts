@@ -1,23 +1,32 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import Chart from 'chart.js/auto';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet, 
+    RouterLinkActive, 
+    RouterLink,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
 
-  constructor() {
+  constructor(private router:Router) {
 
   }
 
   ngOnInit() {
+    
+  }
+
+  ngAfterViewInit() {
     this.showchart();
   }
+
 
 
   showchart() {
