@@ -33,12 +33,12 @@
   width: 550px;
 }
 
-.text-input{
+.text-input {
   width: 400px;
   height: 25px;
 }
 
-.content-option{
+.content-option {
   display: flex;
   flex-direction: row;
 }
@@ -54,11 +54,12 @@
 .content-radio-input {
   margin-top: 15px;
 }
-.content-option-name-container{
+
+.content-option-name-container {
   margin-top: 14px;
 }
 
-.content-option-name{
+.content-option-name {
   text-align: left;
   margin-top: 5px;
   margin-right: 10px;
@@ -73,9 +74,29 @@
   margin-left: 25px;
 }
 
-.button-container{
+.button-container {
   margin: 60px;
   display: flex;
   justify-content: center;
   gap: 50px;
+}
+
+
+.chart {
+  width: 400px;
+  height: 400px;
+}
+
+.chart-container {
+  gap: 200px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-text{
+  margin-left: 150px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
 }

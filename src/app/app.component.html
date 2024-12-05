@@ -75,56 +75,68 @@
 
 
 
-  <h4>■刑法第57條之量刑審酌事項</h4>
-  <div class="option-container">
-    <div class="content-option" style="margin: 10px;">
+    <h4>■刑法第57條之量刑審酌事項</h4>
+    <div class="option-container">
+      <div class="content-option" style="margin: 10px;">
 
-      <div class="content-option-name-container">
-        <br>
-        <div class="content-option-name">犯罪後之態度</div>
-        <div class="content-option-name">犯罪所生之危險或損害</div>
-        <div class="content-option-name">犯罪行為人之品行</div>
-        <div class="content-option-name">其他審酌事項</div>
-      </div>
+        <div class="content-option-name-container">
+          <br>
+          <div class="content-option-name">犯罪後之態度</div>
+          <div class="content-option-name">犯罪所生之危險或損害</div>
+          <div class="content-option-name">犯罪行為人之品行</div>
+          <div class="content-option-name">其他審酌事項</div>
+        </div>
 
-      <div class="content-input-name">
-        暫不考慮
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-      </div>
-      <div class="content-input-name">
-        對被告有利
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-      </div>
-      <div class="content-input-name">
-        中性或不明確
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-      </div>
-      <div class="content-input-name">
-        對被告不利
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
-        <input class="content-radio-input" type="radio">
+        <div class="content-input-name">
+          暫不考慮
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+        </div>
+        <div class="content-input-name">
+          對被告有利
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+        </div>
+        <div class="content-input-name">
+          中性或不明確
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+        </div>
+        <div class="content-input-name">
+          對被告不利
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+          <input class="content-radio-input" type="radio">
+        </div>
       </div>
     </div>
   </div>
 </div>
-</div>
 
 
 <div class="button-container">
-<button>重新整理</button>
-<label>
-<button>進階查詢</button>
-<span>(建議查詢數量少於100篇以節省等候時間)</span>
-</label>
+  <button>重新整理</button>
+  <label>
+    <button>進階查詢</button>
+    <span>(建議查詢數量少於100篇以節省等候時間)</span>
+  </label>
 </div>
+
+<div class="chart-container">
+  <div class="chart">
+    <span>刑期</span>
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="chart">
+    <span>罰金</span>
+    <canvas id="chart1"></canvas>
+  </div>
+</div>
+<p class="chart-text">(此圖表所呈現的是以AI技術輔助之電腦搜尋結果,不排除可能有少數錯誤資訊但應不影響整體量刑分布。)</p>
